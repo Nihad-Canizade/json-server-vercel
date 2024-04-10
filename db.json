@@ -1,9 +1,735 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "books": [
+    {
+      "id": "1",
+      "image": "./assets/images/books-img/elleri-olmaya-kiz.jpg",
+      "name": "Elleri olmayan kız",
+      "author": "Edith Eger",
+      "price": 10,
+      "category": "discount"
+    },
+    {
+      "id": "2",
+      "image": "./assets/images/books-img/parıltı.jpg",
+      "name": "Parıltı",
+      "author": "Stiven King",
+      "price": 14,
+      "category": "discount"
+    },
+    {
+      "id": "3",
+      "image": "./assets/images/books-img/Kendini-fark-et.jpg",
+      "name": "Kendini fark et",
+      "author": "Ufuk Tezemir",
+      "price": 10,
+      "category": "discount"
+    },
+    {
+      "id": "4",
+      "image": "./assets/images/books-img/farenheit_451.jpg",
+      "name": "Farenheit 451",
+      "author": "Ray Bradbury",
+      "price": 12,
+      "category": "discount"
+    },
+    {
+      "id": "5",
+      "image": "./assets/images/books-img/melekler_ve_seytanlar.jpg",
+      "name": "Mələklər və Şeytanlar",
+      "author": "Dan Brown",
+      "price": 14,
+      "category": "bestseller"
+    },
+    {
+      "id": "6",
+      "image": "./assets/images/books-img/3391km.jpg",
+      "name": "3391 km",
+      "author": "Beyza Alkoç",
+      "price": 12,
+      "category": "bestseller"
+    },
+    {
+      "id": "7",
+      "image": "./assets/images/books-img/seker_portakali.jpg",
+      "name": "Şeker portakalı",
+      "author": "Jose Mauro de Vasconselos",
+      "price": 5,
+      "category": "bestseller"
+    },
+    {
+      "id": "8",
+      "image": "./assets/images/books-img/kucuk_prens.jpg",
+      "name": "Küçük prens",
+      "author": "Antoine de Saint - Exupery",
+      "price": 5,
+      "category": "bestseller"
+    },
+    {
+      "id": "9",
+      "image": "./assets/images/books-img/donusum.jpg",
+      "name": "Dönüşüm",
+      "author": "Franz Kafka",
+      "price": 3,
+      "category": "bestseller"
+    },
+    {
+      "id": "10",
+      "image": "./assets/images/books-img/dune.webp",
+      "name": "Dune serisi",
+      "author": "Frank Herbert",
+      "price": 60,
+      "category": "trend"
+    },
+    {
+      "id": "11",
+      "image": "./assets/images/books-img/Harry_potter.jpg",
+      "name": "Harry Potter serisi",
+      "author": "J.K.Rowling",
+      "price": 54,
+      "category": "trend"
+    },
+    {
+      "id": "12",
+      "image": "./assets/images/books-img/yuzuklerin_efendisi.jpg",
+      "name": "Yüzüklerin efendisi",
+      "author": "J. R. R. Tolkien",
+      "price": 35,
+      "category": "trend"
+    },
+    {
+      "id": "13",
+      "image": "./assets/images/books-img/Açlık_oyunları.webp",
+      "name": "Açlık oyunları",
+      "author": "Suzanne Collins",
+      "price": 30,
+      "category": "trend"
+    },
+    {
+      "id": "14",
+      "image": "./assets/images/books-img/His_Dark_Materials_trilogiyası.jpg",
+      "name": "His Dark Materials trilogiyası",
+      "author": "Philip Pullman",
+      "price": 30,
+      "category": "trend"
+    },
+    {
+      "id": "15",
+      "image": "./assets/images/books-img/melekler_ve_seytanlar.jpg",
+      "name": "Mələklər və Şeytanlar",
+      "author": "Dan Brown",
+      "price": 14,
+      "category": "popular"
+    },
+    {
+      "id": "16",
+      "image": "./assets/images/books-img/donusum.jpg",
+      "name": "Dönüşüm",
+      "author": "Franz Kafka",
+      "price": 3,
+      "category": "popular"
+    },
+    {
+      "id": "17",
+      "image": "./assets/images/books-img/Da_vinçi_şifrəsi.jpg",
+      "name": "Da Vinçi şifrəsi",
+      "author": "Dan Brown",
+      "price": 14,
+      "category": "popular"
+    },
+    {
+      "id": "18",
+      "image": "./assets/images/books-img/farenheit_451.jpg",
+      "name": "Farenheit 451",
+      "author": "Ray Bradbury",
+      "price": 12,
+      "category": "popular"
+    },
+    {
+      "id": "19",
+      "image": "./assets/images/books-img/1984.jpg",
+      "name": "1984",
+      "author": "George Orwell",
+      "price": 4,
+      "category": "popular"
+    },
+    {
+      "id": "20",
+      "image": "./assets/images/books-img/hayvan_ciftligi.jpg",
+      "name": "Hayvan çiftliği",
+      "author": "George Orwell ",
+      "price": 4,
+      "category": "popular"
+    },
+    {
+      "id": "21",
+      "image": "./assets/images/books-img/Anna_Karenina.jpg",
+      "name": "Anna Karenina",
+      "author": "Lev Tolstoy",
+      "price": 10,
+      "category": "popular"
+    },
+    {
+      "id": "22",
+      "image": "./assets/images/books-img/ilahi_komedi.jpg",
+      "name": "İlahi komedi",
+      "author": "Dante Alighieri",
+      "price": 15,
+      "category": "popular"
+    },
+    {
+      "id": "23",
+      "image": "./assets/images/books-img/savas_ve_baris.jpg",
+      "name": "Savaş ve Barış",
+      "author": "Aleksey Nikolayeviç Tolstoy",
+      "price": 12,
+      "category": "popular"
+    },
+    {
+      "id": "24",
+      "image": "./assets/images/books-img/Muhteşem_Gatsby.jpg",
+      "name": "Muhteşem Gatsby",
+      "author": "F.Scott Ftzgerald",
+      "price": 13,
+      "category": "popular"
+    },
+    {
+      "id": "25",
+      "image": "./assets/images/books-img/hukumdar.jpg",
+      "name": "Hükümdar",
+      "author": "Nikkolo Makiavelli",
+      "price": 15,
+      "category": "popular"
+    },
+    {
+      "id": "26",
+      "image": "./assets/images/books-img/Dorian_Grayin_portresi.jpg",
+      "name": "Dorian Grayin portresi",
+      "author": "Oscar Wilde",
+      "price": 5,
+      "category": "popular"
+    },
+    {
+      "id": "27",
+      "image": "./assets/images/books-img/Aşk_ve_Gurur.jpg",
+      "name": "Aşk ve Gurur",
+      "author": "Jane Austin",
+      "price": 10,
+      "category": "popular"
+    },
+    {
+      "id": "28",
+      "image": "./assets/images/books-img/parıltı.jpg",
+      "name": "Parıltı",
+      "author": "Stiven King",
+      "price": 14,
+      "category": "popular"
+    },
+    {
+      "id": "29",
+      "image": "./assets/images/books-img/seker_portakali.jpg",
+      "name": "Şeker portakalı",
+      "author": "Jose Mauro de Vasconselos",
+      "price": 5,
+      "category": "novel"
+    },
+    {
+      "id": "30",
+      "image": "./assets/images/books-img/Tutunamayanlar.jpg",
+      "name": "Tutunamayanlar",
+      "author": "Oğuz Atay",
+      "price": 4,
+      "category": "novel"
+    },
+    {
+      "id": "31",
+      "image": "./assets/images/books-img/Çizgili_pijamalı_çocuk.jpg",
+      "name": "Çizgili pijamalı çocuk",
+      "author": "John Boyne",
+      "price": 8,
+      "category": "novel"
+    },
+    {
+      "id": "32",
+      "image": "./assets/images/books-img/Çalıkuşu.jpg",
+      "name": "Çalıkuşu",
+      "author": "Reşat Nuri Güntekin",
+      "price": 5,
+      "category": "novel"
+    },
+    {
+      "id": "33",
+      "image": "./assets/images/books-img/Martin_eden.jpg",
+      "name": "Martin eden",
+      "author": "Jack London",
+      "price": 6,
+      "category": "novel"
+    },
+    {
+      "id": "34",
+      "image": "./assets/images/books-img/Otomatik_portakal.jpg",
+      "name": "Otomatik portakal",
+      "author": "Anthony Burgess",
+      "price": 4,
+      "category": "novel"
+    },
+    {
+      "id": "35",
+      "image": "./assets/images/books-img/İnsancıklar.jpg",
+      "name": "İnsancıklar",
+      "author": "Fyodor Mihayloviç Dostoyevski",
+      "price": 4,
+      "category": "novel"
+    },
+    {
+      "id": "36",
+      "image": "./assets/images/books-img/İki_şehrin_hikayesi.jpg",
+      "name": "İki şehrin hikayesi",
+      "author": "Charles Dickens",
+      "price": 3,
+      "category": "novel"
+    },
+    {
+      "id": "37",
+      "image": "./assets/images/books-img/Altıncı_koğuş.jpg",
+      "name": "Altıncı koğuş",
+      "author": "Anton Çexov",
+      "price": 4,
+      "category": "novel"
+    },
+    {
+      "id": "38",
+      "image": "./assets/images/books-img/Uğultulu_tepeler.jpg",
+      "name": "Uğultulu tepeler",
+      "author": "Emily Bronte",
+      "price": 6,
+      "category": "novel"
+    },
+    {
+      "id": "39",
+      "image": "./assets/images/books-img/3391km.jpg",
+      "name": "3391 km",
+      "author": "Beyza Alkoç",
+      "price": 12,
+      "category": "romantic"
+    },
+    {
+      "id": "40",
+      "image": "./assets/images/books-img/Sıfır_kilometre.jpg",
+      "name": "Sıfır kilometre",
+      "author": "Beyza alkoç",
+      "price": 10,
+      "category": "romantic"
+    },
+    {
+      "id": "41",
+      "image": "./assets/images/books-img/Anna_Karenina.jpg",
+      "name": "Anna Karenina",
+      "author": "Lev Tolstoy",
+      "price": 10,
+      "category": "romantic"
+    },
+    {
+      "id": "42",
+      "image": "./assets/images/books-img/Ölsək_belə_qovuşmarıq.jpg",
+      "name": "Ölsək belə qovuşmarıq",
+      "author": "Coşqun Həsənzadə",
+      "price": 10,
+      "category": "romantic"
+    },
+    {
+      "id": "43",
+      "image": "./assets/images/books-img/Aşk_ve_Gurur.jpg",
+      "name": "Aşk ve Gurur",
+      "author": "Jane Austin",
+      "price": 10,
+      "category": "romantic"
+    },
+    {
+      "id": "44",
+      "image": "./assets/images/books-img/Romeo_ve_Juliet.jpg",
+      "name": "Romeo ve Juliet",
+      "author": "William Shakespeare",
+      "price": 10,
+      "category": "romantic"
+    },
+    {
+      "id": "45",
+      "image": "./assets/images/books-img/Senden_önce_ben.webp",
+      "name": "Senden önce ben",
+      "author": "Senden önce ben -Jojo Moyes",
+      "price": 10,
+      "category": "romantic"
+    },
+    {
+      "id": "46",
+      "image": "./assets/images/books-img/Kürk_mantolu_madonna.jpg",
+      "name": "Kürk mantolu madonna",
+      "author": "Sabahattin Ali",
+      "price": 8,
+      "category": "romantic"
+    },
+    {
+      "id": "47",
+      "image": "./assets/images/books-img/Çalıkuşu.jpg",
+      "name": "Çalıkuşu",
+      "author": "Reşat Nuri Güntekin",
+      "price": 5,
+      "category": "romantic"
+    },
+    {
+      "id": "48",
+      "image": "./assets/images/books-img/Milenaya_mektuplar.jpg",
+      "name": "Milenaya mektuplar",
+      "author": "Franz Kafka",
+      "price": 4,
+      "category": "romantic"
+    },
+    {
+      "id": "49",
+      "image": "./assets/images/books-img/Dudaktan_kalbe.jpg",
+      "name": "Dudaktan kalbe",
+      "author": "Reşat Nuri Güntekin",
+      "price": 5,
+      "category": "romantic"
+    },
+    {
+      "id": "50",
+      "image": "./assets/images/books-img/Adsız_tablo.jpg",
+      "name": "Adsız tablo",
+      "author": "Elxan Elatlı",
+      "price": 5,
+      "category": "detective"
+    },
+    {
+      "id": "51",
+      "image": "./assets/images/books-img/Spikerin_son_haberi.jpg",
+      "name": "Spikerin son haberi",
+      "author": "Selahattin Demirel",
+      "price": 5,
+      "category": "detective"
+    },
+    {
+      "id": "52",
+      "image": "./assets/images/books-img/Zəhərlənmiş_qələm.jpg",
+      "name": "Zəhərlənmiş qələm",
+      "author": "Agata Kristi",
+      "price": 5,
+      "category": "detective"
+    },
+    {
+      "id": "53",
+      "image": "./assets/images/books-img/Staylzda_müəmmalı_hadisə.jpg",
+      "name": "Staylzda müəmmalı hadisə",
+      "author": "Agata Kristi",
+      "price": 5,
+      "category": "detective"
+    },
+    {
+      "id": "54",
+      "image": "./assets/images/books-img/parıltı.jpg",
+      "name": "Parıltı",
+      "author": "Stiven King",
+      "price": 14,
+      "category": "detective"
+    },
+    {
+      "id": "55",
+      "image": "./assets/images/books-img/Baskerville_Lerin_köpeği.jpg",
+      "name": "Baskerville-Lerin köpeği",
+      "author": "Artur Konan Doyle",
+      "price": 4,
+      "category": "detective"
+    },
+    {
+      "id": "56",
+      "image": "./assets/images/books-img/Susan_qadın.jpg",
+      "name": "Susan qadın",
+      "author": "Elxan Elatlı",
+      "price": 6,
+      "category": "detective"
+    },
+    {
+      "id": "57",
+      "image": "./assets/images/books-img/Kibar_hırsız.jpg",
+      "name": "Kibar hırsız",
+      "author": "Maurice Leblanc",
+      "price": 8,
+      "category": "detective"
+    },
+    {
+      "id": "58",
+      "image": "./assets/images/books-img/Oyuk_iğne.jpg",
+      "name": "Oyuk iğne",
+      "author": "Maurice Levlanc",
+      "price": 8,
+      "category": "detective"
+    },
+    {
+      "id": "59",
+      "image": "./assets/images/books-img/Tanatonavtlar.jpg",
+      "name": "Tanatonavtlar",
+      "author": "Bernar verber",
+      "price": 14,
+      "category": "fantastic"
+    },
+    {
+      "id": "60",
+      "image": "./assets/images/books-img/kucuk_prens.jpg",
+      "name": "Küçük prens",
+      "author": "Antoine de Saint - Exupery",
+      "price": 5,
+      "category": "fantastic"
+    },
+    {
+      "id": "61",
+      "image": "./assets/images/books-img/Harry_potter.jpg",
+      "name": "Harry Potter serisi",
+      "author": "J.K.Rowling",
+      "price": 54,
+      "category": "fantastic"
+    },
+    {
+      "id": "62",
+      "image": "./assets/images/books-img/Açlık_oyunları.webp",
+      "name": "Açlık oyunları",
+      "author": "Suzanne Collins",
+      "price": 30,
+      "category": "fantastic"
+    },
+    {
+      "id": "63",
+      "image": "./assets/images/books-img/Zombilerin_dünyası_İnsula.jpg",
+      "name": "Zombilerin Dünyası İnsula",
+      "author": "Emrah Kapışkay",
+      "price": 5,
+      "category": "fear"
+    },
+    {
+      "id": "64",
+      "image": "./assets/images/books-img/12_dakika.jpg",
+      "name": "12 dakika",
+      "author": "Eylem Uyguner",
+      "price": 4,
+      "category": "fear"
+    },
+    {
+      "id": "65",
+      "image": "./assets/images/books-img/Wendigo.jpg",
+      "name": "Wendigo",
+      "author": "Algernon Blackwood",
+      "price": 8,
+      "category": "fear"
+    },
+    {
+      "id": "66",
+      "image": "./assets/images/books-img/Kuyu_ve_Sarkaç.jpg",
+      "name": "Kuyu ve Sarkaç",
+      "author": "Edgar Allan Poe",
+      "price": 5,
+      "category": "fear"
+    },
+    {
+      "id": "67",
+      "image": "./assets/images/books-img/Hannibal_doğuyor.jpg",
+      "name": "Hannibal doğuyor",
+      "author": "Thomas Harris",
+      "price": 13,
+      "category": "fear"
+    },
+    {
+      "id": "68",
+      "image": "./assets/images/books-img/Coraline.jpg",
+      "name": "Coraline",
+      "author": "Neil Gaiman",
+      "price": 10,
+      "category": "fear"
+    },
+    {
+      "id": "69",
+      "image": "./assets/images/books-img/Deliliğin_Dağlarında.jpg",
+      "name": "Deliliğin Dağlarında",
+      "author": "H.P.Lovecraft",
+      "price": 12,
+      "category": "fear"
+    },
+    {
+      "id": "70",
+      "image": "./assets/images/books-img/Kuzuların_Sessizliği.jpg",
+      "name": "Kuzuların Sessizliği",
+      "author": "Thomas Harris",
+      "price": 13,
+      "category": "fear"
+    },
+    {
+      "id": "71",
+      "image": "./assets/images/books-img/Kendini-fark-et.jpg",
+      "name": "Kendini fark et",
+      "author": "Ufuk Tezemir",
+      "price": 10,
+      "category": "motivation"
+    },
+    {
+      "id": "72",
+      "image": "./assets/images/books-img/elleri-olmaya-kiz.jpg",
+      "name": "Elleri olmayan kız",
+      "author": "Edith Eger",
+      "price": 10,
+      "category": "motivation"
+    },
+    {
+      "id": "73",
+      "image": "./assets/images/books-img/Ben_neyim.jpg",
+      "name": "Ben neyim",
+      "author": "Hakan Mengüç",
+      "price": 7,
+      "category": "motivation"
+    },
+    {
+      "id": "74",
+      "image": "./assets/images/books-img/İyiler-bir_gün_mutlaka_kazanır.jpg",
+      "name": "İyiler bir gün mutlaka kazanır",
+      "author": "Hulusi Gökhan demir",
+      "price": 7,
+      "category": "motivation"
+    },
+    {
+      "id": "75",
+      "image": "./assets/images/books-img/Youtubeden_para_kazanma_sırları.jpg",
+      "name": "Youtubeden para kazanma sırları",
+      "author": "Afgan Rasulov",
+      "price": 3,
+      "category": "motivation"
+    },
+    {
+      "id": "76",
+      "image": "./assets/images/books-img/Amok_koşucusu.jpg",
+      "name": "Amok koşucusu",
+      "author": "Stefan Zweig",
+      "price": 4,
+      "category": "classic"
+    },
+    {
+      "id": "77",
+      "image": "./assets/images/books-img/Yakıcı_sır.jpg",
+      "name": "Yakıcı sır",
+      "author": "Stefan Zweig",
+      "price": 4,
+      "category": "classic"
+    },
+    {
+      "id": "78",
+      "image": "./assets/images/books-img/3_kız_kardeş.jpg",
+      "name": "3 kız kardeş",
+      "author": "Anton Pavloviç Çehov",
+      "price": 4,
+      "category": "classic"
+    },
+    {
+      "id": "79",
+      "image": "./assets/images/books-img/Kendine_ait_bir_oda.png",
+      "name": "Kendine ait bir oda",
+      "author": "Virginia Woolf",
+      "price": 3,
+      "category": "classic"
+    },
+    {
+      "id": "80",
+      "image": "./assets/images/books-img/İvan_ilyiçin_ölümü.jpg",
+      "name": "İvan ilyiçin ölümü",
+      "author": "Lev Tolstoy",
+      "price": 4,
+      "category": "classic"
+    },
+    {
+      "id": "81",
+      "image": "./assets/images/books-img/Olağanüstü_bir_gece.png",
+      "name": "Olağanüstü bir gece",
+      "author": "Stefan Zweig",
+      "price": 3,
+      "category": "classic"
+    },
+    {
+      "id": "82",
+      "image": "./assets/images/books-img/Satranç.jpg",
+      "name": "Satranç",
+      "author": "Stefan Zweig",
+      "price": 4,
+      "category": "classic"
+    },
+    {
+      "id": "83",
+      "image": "./assets/images/books-img/Bilinmeyen_bir_kadının_mektupu.jpg",
+      "name": "Bilinmeyen bir kadının mektupu",
+      "author": "Stefan Zweig",
+      "price": 4,
+      "category": "classic"
+    },
+    {
+      "id": "84",
+      "image": "./assets/images/books-img/Kumarbaz.jpg",
+      "name": "Kumarbaz",
+      "author": "Fyodor Mixayloviç Dostoyevski",
+      "price": 5,
+      "category": "classic"
+    },
+    {
+      "id": "85",
+      "image": "./assets/images/books-img/Bir_yufka_yürekli.jpg",
+      "name": "Bir yufka yürekli",
+      "author": "Fyodor Mixayloviç Dostoyevski",
+      "price": 3,
+      "category": "classic"
+    },
+    {
+      "id": "86",
+      "image": "./assets/images/books-img/Ev_sahibesi.jpg",
+      "name": "Ev sahibesi",
+      "author": "Fyodor Mixayloviç Dostoyevski",
+      "price": 3,
+      "category": "classic"
+    },
+    {
+      "id": "87",
+      "image": "./assets/images/books-img/Beyaz_geceler.jpg",
+      "name": "Beyaz geceler",
+      "author": "Fyodor Mixayloviç Dostoyevski",
+      "price": 3,
+      "category": "classic"
+    },
+    {
+      "id": "88",
+      "image": "./assets/images/books-img/Sineklerin_tanrısı.webp",
+      "name": "Sineklerin tanrısı",
+      "author": "Stefan Zweig",
+      "price": 3,
+      "category": "classic"
+    },
+    {
+      "id": "89",
+      "image": "./assets/images/books-img/Ölümcül_yumurtalar.jpg",
+      "name": "Ölümcül yumurtalar",
+      "author": "Mihail Bulgakov",
+      "price": 4,
+      "category": "classic"
+    },
+    {
+      "id": "90",
+      "image": "./assets/images/books-img/beyaz_dis.webp",
+      "name": "Beyaz diş",
+      "author": "Jack London",
+      "price": 4,
+      "category": "classic"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "wishlist": [],
+  "basket": [],
+  "users": [
+    {
+      "id": "c330",
+      "name": "Nihad",
+      "email": "nihad_caniyev@bk.ru",
+      "password": "talish123"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "message": []
 }
